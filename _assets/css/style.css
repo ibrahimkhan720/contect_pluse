@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	padding:0;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+}
+.header_bg
+{
+	background:url(../images/header_bg.jpg);
+	height:100px;
+}
+
+.user_bar
+{
+	background:#000000;
+	height:30px;
+}
+
+.footer_bg
+{
+	background:url(../images/footer_bg.jpg);
+	height:30px;
+}
+
+.topmenu ul 
+{
+	list-style-type:none;
+	padding-right:10px;
+}
+
+.topmenu ul li 
+{
+	display:inline;
+	color:#FFFFFF;
+	
+}
+.topmenu ul li a:link, .topmenu ul li a:active, .topmenu ul li a:visited
+{
+	color:#FFFFFF;
+	text-decoration:none;	
+}
+.topmenu ul li a:hover
+{
+	color:#000000;	
+}
+
+.left_nav ul
+{
+	list-style-type:none;		
+	padding:0;
+	margin:0;
+}
+.left_nav ul li
+{
+	line-height:30px;	
+}
+.left_nav ul li a:link, .left_nav ul li a:active, .left_nav ul li a:visited
+{
+	text-decoration:none;
+	color:#207ce5;	
+}
+.left_nav ul li a:hover
+{
+	color:#000;	
+}
+
+.labels
+{
+	color:#207ce5;	
+}
+.textFields
+{
+	border:1px solid #207ce5;
+	width:250px;
+	height:30px;
+	color:#666;	
+}
+.btns
+{
+	border:1px solid #666;
+	color:#666;	
+}
+.login_link a:link, .login_link a:active, .login_link a:visited
+{
+	text-decoration:none;
+	color:#207ce5;
+}
+.login_link a:hover
+{
+	color:#999999;	
+}
+
+  
